@@ -1,0 +1,232 @@
+<html>
+    <head>
+        <title>ProjecCure</title>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/png" href="ProjecCureLogo.jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            .parallax {
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .custom-bg-size {
+                background-size:36%;
+            }
+            @media (max-width: 640px) {
+                .custom-bg-size {
+                    background-size: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <!--NAV BAR SECTION-->
+        <section>
+            <nav class="bg-[#00006a] p-5 flex-wrap">
+                <div class="container mx-auto flex flex-wrap justify-between items-center">
+                    <div class="flex items-center space-x-3">
+                        <img src="C:\Users\Karthik\OneDrive\Desktop\kiran(html)\ProjecCure\ProjecCureLogo1.png" alt="ProjecCureLogo" class="w-12 h-12 rounded-full m-0 p-0">
+                        <a href="#" class="text-white text-4xl bold font-bold m-0 p-0">ProjecCure</a>
+                    </div>
+                    <div class="hidden md:flex space-x-3 items-center">
+                        <a href="#Intro" class="text-white text-lg hover:bg-blue-600 px-6 py-3 rounded transition duration-400">Intro</a>
+                        <a href="#HowItWorks" class="text-white text-lg hover:bg-blue-600 px-6 py-3 rounded transition duration-500">How It Works</a>
+                        <a href="#DataInsights" class="text-white text-lg hover:bg-blue-600 px-6 py-3 rounded transition duration-500">Data Insights</a>
+                        <a href="#CancerAnalytics" class="text-white text-lg hover:bg-blue-600 px-6 py-3 rounded transition duration-500">Cancer Analytics</a>
+                        <a href="#Team" class="text-white text-lg hover:bg-blue-600 px-6 py-3 rounded transition duration-500">Team</a>
+                    </div>
+                    <button class="md:hidden focus:outline-none text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                    </button>
+                </div>
+
+                <div id="mobileMenu" class="sm:hidden flex flex-col justify-center mt-5 max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
+                    <a href="#Intro" class="block text-white hover:bg-blue-600 px-3 py-3 transition duration-500">Intro</a>
+                    <a href="#HowItWorks" class="block text-white hover:bg-blue-600 px-3 py-3 transition duration-500">How It Works</a>
+                    <a href="#DataInsights" class="block text-white hover:bg-blue-600 px-3 py-3 transition duration-500">Data Insights</a>
+                    <a href="#CancerAnalytics" class="block text-white hover:bg-blue-600 px-3 py-3 transition duration-500">Cancer Analytics</a>
+                    <a href="#Team" class="block text-white hover:bg-blue-600 px-3 py-3 transition duration-500">Team</a>
+                </div>
+            </nav>
+        </section>
+        <!--INTRODUCTION SECTION-->
+        <section id="Intro" class="parallax bg-[url('https://static.vecteezy.com/system/resources/previews/006/713/071/non_2x/abstract-health-medical-science-consist-doctor-digital-wireframe-concept-modern-medical-technology-treatment-medicine-on-gray-background-vector.jpg')] bg-cover bg-center min-h-screen w-full flex items-center justify-center border border-white-500 custom-bg-size">
+            <div class="container mx-auto px-5 md:px-10 flex flex-wrap items-center justify-center text-center">
+                <div class="w-full md:w-1/2">
+                    <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white">Welcome to ProjecCure</h2>
+                    <p class="text-base sm:text-lg lg:text-xl text-white mt-5">
+                        <i>Prevention is Better Than Cure!</i> <br>
+                        ProjecCure is a platform that connects patients with doctors and hospitals, offering a one-stop solution for all your medical needs. We aim to make healthcare more accessible, efficient, and preventative.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--ABOUT PROJECCURE SECTION-->
+        <section id="HowItWorks" class="parallax bg-[url('https://cdn.pixabay.com/photo/2012/04/12/12/27/herald-29800_640.png')] bg-[#09193b] bg-center bg-no-repeat border border-white-500 w-full min-h-screen flex items-center justify-center custom-bg-size">
+            <div class="container mx-auto px-5 md:px-10 flex flex-wrap items-center justify-center text-center z-10 relative w-full min-h-screen">
+                <div class="w-full text-center text-white z-10 relative "> 
+                    <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white">About Us</h2>
+                    <p class="text-base sm:text-md lg:text-xl text-white mt-5"><strong>ProjecCure -</strong> is a groundbreaking web platform designed to assist healthcare professionals in diagnosing diseases with greater accuracy and speed. By simply inputting a set of symptoms, such as fever, cold, cough, and fatigue, doctors can quickly receive potential disease diagnoses, powered by advanced data analytics.</p> <br><br>
+                    <h4 class="text-3xl sm:text-2xl font-bold text-white">How ProjecCure Works!</h4>
+                    <p class="text-base sm:text-md lg:text-xl text-white mt-5"> Utilizing a comprehensive dataset of medical records and symptom patterns, ProjecCure intelligently analyzes the provided symptoms and suggests likely conditions, such as malaria, typhoid, or other related illnesses. The platform then visualizes this data, providing doctors with a clear, easy-to-understand interface that helps them make timely and informed decisions.</p> <br><br>
+                    <h4 class="text-3xl sm:text-2xl font-bold text-white">Our Mission</h4>
+                    <p class="text-base sm:text-md lg:text-xl text-white mt-5">Our mission is to enhance the diagnostic process by integrating data science into everyday medical practice. ProjecCure empowers doctors to leverage the power of data, enabling them to provide faster, more accurate diagnoses, and ultimately, better patient care.</p>
+                </div>
+            </div> 
+        </section>
+        <!--DATA INSIGHTS-->
+        <section id="DataInsights" class="parallax bg-[#09193b] border border-white-500 bg-center bg-no-repeat w-full min-h-screen flex flex-col lg:flex-row items-center justify-center custom-bg-size">
+            <div class="flex flex-col items-center justify-center text-center w-full p-6">
+                <h5 class="text-3xl sm:text-3xl lg:text-4xl font-bold text-white mb-4">Data Insights</h5>
+                <p class="text-sm text-base sm:text-lg lg:text-xl text-white leading-relaxed max-w-3xl">
+                    Dive into interactive visualizations that provide deeper insights into disease patterns and age demographics. The circular graph offers an overview of age group distributions, allowing users to explore correlations between age and disease more intuitively. By clicking on a specific age group, the corresponding bar graph updates dynamically to display the diseases most commonly associated with that group.
+                </p>
+                <p class="text-sm text-base sm:text-lg lg:text-xl text-white leading-relaxed max-w-3xl mt-4">
+                    This interactive feature enables users to easily explore the connections between age groups and various diseases. Additional details, such as age group ranges and disease names, are provided for clarity, helping to uncover trends that can better inform decision-making and disease prediction.
+                </p>
+            </div>
+                <div id="viz1709330729195" class="w-full mt-5 flex items-center justify-center">
+                    <noscript>
+                        <a href='#'>
+                            <img alt='Dashboard 2' src='https://public.tableau.com/static/images/Da/Dashboard1_17093307133780/Dashboard2/1_rss.png' style='border: none' />
+                        </a>
+                    </noscript>
+                    <object class='tableauViz' style='display:block;'>
+                        <param name='host_url' value='https://public.tableau.com/' />
+                        <param name='embed_code_version' value='3' />
+                        <param name='name' value='Dashboard1_17093307133780/Dashboard2' />
+                        <param name='tabs' value='no' />
+                        <param name='toolbar' value='yes' />
+                        <param name='static_image' value='https://public.tableau.com/static/images/Da/Dashboard1_17093307133780/Dashboard2/1.png' />
+                        <param name='animate_transition' value='yes' />
+                        <param name='display_static_image' value='yes' />
+                        <param name='display_spinner' value='yes' />
+                        <param name='display_overlay' value='yes' />
+                        <param name='display_count' value='yes' />
+                        <param name='language' value='en-US' />
+                        <param name='filter' value='publish=yes' />
+                    </object>
+                </div>
+                <script type='text/javascript'>
+                    var divElement1 = document.getElementById('viz1709330729195');
+                    var vizElement1 = divElement1.getElementsByTagName('object')[0];
+                    if (divElement1.offsetWidth > 800) {
+                        vizElement1.style.width = '1000px';
+                        vizElement1.style.height = '827px';
+                    } else if (divElement1.offsetWidth > 500) {
+                        vizElement1.style.width = '1000px';
+                        vizElement1.style.height = '827px';
+                    } else {
+                        vizElement1.style.width = '100%';
+                        vizElement1.style.height = '500px';
+                    }
+                    var scriptElement1 = document.createElement('script');
+                    scriptElement1.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                    vizElement1.parentNode.insertBefore(scriptElement1, vizElement1);
+                </script>
+            </div>
+        </section>
+        <!--CANCER ANALYTICS-->
+        <section id="CancerAnalytics" class="parallax bg-[#09193b] border border-white-500 bg-center bg-no-repeat w-full min-h-screen flex flex-col lg:flex-row items-center justify-center custom-bg-size">
+            <div class='w-full mt-5 flex items-center justify-center mt-5' id='viz1709331280036'>
+                <noscript>
+                <a href='#'>
+                <img alt='Story 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;Story_17093312635140&#47;Story1&#47;1_rss.png' style='border: none' />
+                </a>
+                </noscript>
+                <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='Story_17093312635140&#47;Story1' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;Story_17093312635140&#47;Story1&#47;1.png' /> 
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+                <param name='filter' value='publish=yes' />
+                </object>
+                </div>                
+                <script type='text/javascript'>                    
+                var divElement = document.getElementById('viz1709331280036');                    
+                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                vizElement.style.width='100%';vizElement.style.height='732px';                    
+                var scriptElement = document.createElement('script');                    
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                </script>
+                <div class="flex flex-col items-center justify-center text-center p-6 ">    
+                    <h2 class="text-xl sm:text-4xl lg:text-4xl font-bold text-white mb-4">Cancer Analytics</h2>
+                    <p class="text-sm text-base sm:text-lg lg:text-xl text-white leading-relaxed max-w-3xl">The following storyboard illustrates the journey of a patient from the moment they experience symptoms to the point where they receive a diagnosis. By leveraging ProjecCure's advanced data analytics, doctors can provide patients with timely and accurate diagnoses, improving patient outcomes and overall healthcare quality.</p>
+                </div>
+        </section>
+        <!--TEAM SECTION-->
+        <section id="Team" class="py-12 bg-[#09193b]">
+            <div class="max-w-7xl mx-auto p-5 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-extrabold text-center text-white sm:text-4xl">Meet the Team</h2>
+                <div class="mt-10 flex flex-wrap justify-center">
+                    <div class="max-w-xs max-h-xs mx-4 my-4 bg-[#101d50] shadow-lg rounded-lg overflow-hidden p-5 hover:bg-gray-500 transition duration-500">
+                        <img class="w-64 h-64 mx-auto rounded-full object-cover" src="kiran1.jpg" alt="Kiran Kumar Kottapu">
+                        <div class="p-2">
+                            <h3 class="text-lg font-bold text-white">Kiran Kumar Kottapu</h3>
+                            <p class="text-sm text-white">Frontend Developer</p>
+                            <p class="mt-3 text-white">Front-end developer skilled in HTML, CSS, Tailwind CSS, and JavaScript, specializing in responsive, user-friendly web designs and seamless functionality across devices."</p>
+                            <div class="mt-2 flex space-x-4">
+                                <a href="#" class="text-white hover:underline">LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="max-w-xs max-h-xs mx-4 my-4 bg-[#101d50] shadow-lg rounded-lg overflow-hidden p-5 hover:bg-gray-500 transition duration-500">
+                        <img class="w-64 h-64 mx-auto rounded-full object-cover" src="mukesh1.jpg" alt="Kiran Kumar Kottapu">
+                        <div class="p-2">
+                            <h3 class="text-lg font-bold text-white">Mukesh Koushik Korlam</h3>
+                            <p class="text-sm text-white">Data Engineer</p>
+                            <p class="mt-3 text-white">Gathers and organizes datasets, ensuring they are accurate, clean, and prepared for analysis, enabling smooth integration into ProjecCure.</p>
+                            <div class="mt-2 flex space-x-4">
+                                <a href="#" class="text-white hover:underline">LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="max-w-xs max-h-xs mx-4 my-4 bg-[#101d50] shadow-lg rounded-lg overflow-hidden p-5 hover:bg-gray-500 transition duration-500">
+                        <img class="w-64 h-64 mx-auto rounded-full object-cover" src="kiran1.jpg" alt="Kiran Kumar Kottapu">
+                        <div class="p-2">
+                            <h3 class="text-lg font-bold text-white">Manoj P</h3>
+                            <p class="text-sm text-white">Data Engineer</p>
+                            <p class="mt-3 text-white">Transforms the collected data into interactive visualizations using Tableau, making complex insights understandable and accessible for users.</p>
+                            <div class="mt-2 flex space-x-4">
+                                <a href="#" class="text-white hover:underline">LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <script>
+            const btn = document.querySelector('button');
+            const nav = document.getElementById('mobileMenu');
+
+            btn.addEventListener('click', () => {
+                if (nav.classList.contains('max-h-0')) {
+                    nav.classList.remove('max-h-0');
+                    nav.classList.add('max-h-screen');
+                } else {
+                    nav.classList.remove('max-h-screen');
+                    nav.classList.add('max-h-0');
+                }
+            });
+        </script>
+    </body>
+</html>
